@@ -10,6 +10,8 @@ You must solve the problem without modifying the array nums and uses only consta
  */
 
 class Solution {
+
+//floyds hare and tortoise Cycle detection 
     public int findDuplicate(int[] nums) {
         int slow = nums[0];
         int fast= nums[0];
