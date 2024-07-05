@@ -13,6 +13,15 @@ Example 1:
 
 Input: arr = [17,18,5,4,6,1]
 Output: [18,6,6,6,1,-1]
+
+
+SOLUTION -
+Start from right end
+store the value of last in maxOnRight and replace it by -1
+move to left, keep it in temp, and replace it maxOnRight.
+
+check if the temp i.e. the current number is greater than maxOnRight?
+if yes then swap
 */
 
 class Solution {
